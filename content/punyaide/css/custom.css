@@ -1,0 +1,60 @@
+.item:nth-child(1) {
+    background-color: #11743E;
+    background-image: url(../images/slider1-home.png);
+    background-size: cover;
+}
+
+@media (max-width:1024px) {
+    .item:nth-child(1) {
+        /*background-position: 40% 100%;*/
+        background-size: contain;
+        background-repeat: no-repeat;
+    };
+}
+
+.item:nth-child(2) {
+    background-image: url(../images/slider-home2.svg);
+    background-size: cover;
+    /*background-position: 50% 0;*/
+}
+
+.item:nth-child(3) {
+    background-color: #11743E;
+    background-image: url(../images/slider3-home.png);
+    background-size: cover;
+    /*background-position: 70% 50%;*/
+}
+
+@media (max-width:1024px) {
+    .item:nth-child(3) {
+        /*background-position: 40% 100%;*/
+        background-size: contain;
+        background-repeat: no-repeat;
+    };
+}
+
+.logo-footer {
+    background-image: url(../images/logo-small.png);
+    color: #11743E;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    margin-left: 25%;
+}
+
+#product-header {
+    background: url(../images/kotak-packaging-2.jpg) 50% 0 fixed;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+.href-home {
+	color: white;
+}
+.href-home:hover{
+	color:white;
+}
